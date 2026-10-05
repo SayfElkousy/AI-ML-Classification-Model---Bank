@@ -1,0 +1,16 @@
+Accuracy 0.8975562388736041
+This accuracy value means that the model predicted the correct category (y or n) for 89.8 % of the values in the data set. I chose a threshold value of .45 because it slightly increased 
+the accuracy value without significantly decreasing the metric values.
+
+Precision 0.6067796610169491
+This precision value means that of the clients in the model that were predicted to have subscribed, 60.7 % actually subscribed.
+
+Recall 0.257183908045977
+This recall value means that the model found 25.7% of all the clients that subscribed to a term deposit.
+
+F1 0.3612512613521695
+This value combines precision and recall. 
+
+ROC_AUC 0.7986035992126133
+This ROC_AUC value means that the model was fairly good at predicting positive examples above negative ones. This does not affirm that the model 
+was a good predictor of subscribers.
